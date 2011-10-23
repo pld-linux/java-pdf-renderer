@@ -2,7 +2,7 @@
 # Conditional build:
 %bcond_without	javadoc		# don't build javadoc
 
-%define		rel	0.1
+%define		rel	1
 %define		svn_date 20110310
 %define		svn_version 128svn
 %define		alternate_name PDFRenderer
@@ -25,7 +25,6 @@ BuildRequires:	fonts-Type1-urw
 BuildRequires:	jdk >= 1.6
 BuildRequires:	jpackage-utils
 Requires:	fonts-Type1-urw
-Requires:	java >= 1.7
 Requires:	jpackage-utils >= 1.5
 Obsoletes:	pdf-renderer
 BuildArch:	noarch
