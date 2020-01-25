@@ -7,7 +7,6 @@
 %define		svn_version 128svn
 %define		alternate_name PDFRenderer
 %define		srcname		pdf-renderer
-%include	/usr/lib/rpm/macros.java
 Summary:	A 100% Java PDF renderer and viewer
 Name:		java-%{srcname}
 Version:	0
